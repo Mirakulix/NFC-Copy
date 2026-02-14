@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFC Copy</string>
+    <string name="hce_service_description">NFC Card Emulation</string>
+    <string name="aid_group_description">NFC Copy Card Emulation AIDs</string>
+
+    <string name="tab_read">Lesen</string>
+    <string name="tab_saved">Gespeichert</string>
+    <string name="tab_write">Schreiben</string>
+    <string name="tab_emulate">Emulieren</string>
+
+    <string name="nfc_enabled">NFC ist aktiviert</string>
+    <string name="nfc_disabled">NFC ist deaktiviert</string>
+    <string name="nfc_not_supported">NFC wird nicht unterstützt</string>
+
+    <string name="hold_card">Karte an das Gerät halten</string>
+    <string name="reading_card">Karte wird gelesen…</string>
+    <string name="card_read_success">Karte erfolgreich gelesen</string>
+    <string name="card_read_error">Fehler beim Lesen der Karte</string>
+
+    <string name="save_card">Karte speichern</string>
+    <string name="delete_card">Karte löschen</string>
+    <string name="card_saved">Karte gespeichert</string>
+    <string name="no_saved_cards">Keine gespeicherten Karten</string>
+
+    <string name="write_card">Auf Karte schreiben</string>
+    <string name="writing_card">Schreibe auf Karte…</string>
+    <string name="write_success">Erfolgreich geschrieben</string>
+    <string name="write_error">Fehler beim Schreiben</string>
+    <string name="select_source_card">Quellkarte auswählen</string>
+    <string name="hold_target_card">Zielkarte an das Gerät halten</string>
+
+    <string name="start_emulation">Emulation starten</string>
+    <string name="stop_emulation">Emulation stoppen</string>
+    <string name="emulation_active">Emulation aktiv</string>
+    <string name="select_card_to_emulate">Karte zum Emulieren auswählen</string>
+
+    <string name="biometric_prompt_title">Authentifizierung</string>
+    <string name="biometric_prompt_subtitle">Bitte authentifizieren Sie sich</string>
+    <string name="biometric_prompt_cancel">Abbrechen</string>
+
+    <string name="uid">UID</string>
+    <string name="technology">Technologie</string>
+    <string name="card_type">Kartentyp</string>
+    <string name="sectors">Sektoren</string>
+    <string name="blocks">Blöcke</string>
+    <string name="data_hex">Daten (Hex)</string>
+    <string name="search_cards">Karten suchen…</string>
+
+    <string name="warning_sensitive">Achtung: Diese Karte könnte sensible Daten enthalten.</string>
+    <string name="hce_limitation">HCE kann nur ISO 14443–4 Karten emulieren.</string>
+</resources>
