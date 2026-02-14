@@ -22,6 +22,7 @@ class ExpertNfcReader(private val keyManager: MifareKeyManager = MifareKeyManage
         val warnings: List<String>
     )
 
+    @Suppress("ArrayInDataClass")
     data class SectorResult(
         val sectorIndex: Int,
         val blocks: List<BlockResult>,
@@ -31,6 +32,7 @@ class ExpertNfcReader(private val keyManager: MifareKeyManager = MifareKeyManage
         val isAuthenticated: Boolean = false
     )
 
+    @Suppress("ArrayInDataClass")
     data class BlockResult(
         val blockIndex: Int,
         val data: ByteArray?,

@@ -57,6 +57,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.nfccopy.nfc.NfcManager
 import com.nfccopy.nfc.expert.ExpertNfcReader
+import com.nfccopy.nfc.expert.ExpertNfcWriter
 import com.nfccopy.ui.theme.HexBackground
 import com.nfccopy.ui.theme.HexText
 import com.nfccopy.ui.theme.NfcGreen

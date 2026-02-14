@@ -2,7 +2,6 @@ package com.nfccopy.service
 
 import android.content.Intent
 import android.nfc.cardemulation.HostApduService
-import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import com.nfccopy.util.ByteUtils
